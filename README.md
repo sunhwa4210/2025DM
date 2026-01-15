@@ -1,16 +1,52 @@
-# React + Vite
+# 졸업전시 웹 플랫폼 (SWU DM 2025)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+다수 참여자의 졸업 작품을 전시·탐색하기 위한 **웹 기반 전시 플랫폼**입니다.  
+전시 기간 동안 실제 관람객이 사용하는 환경을 기준으로 UI를 점검하고, 이슈를 대응하며 개선했습니다.
 
-Currently, two official plugins are available:
+- 배포 링크: https://www.swudm2025.com/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 프로젝트 개요
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **목적**  
+  여러 참여자의 작품을 온라인에서 전시하고, 관람객이 작품을 **탐색**할 수 있도록 돕는 플랫폼
 
-## Expanding the ESLint configuration
+- **특징**
+  - 작품 전시/탐색 흐름 중심의 화면 구성
+  - **Lottie 애니메이션**을 활용한 인터랙션 적용
+  - 전시 기간 중 실제 관람객 사용 환경 기준으로 UI 수정 및 이슈 대응
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 역할
+
+- **프론트엔드 개발 전담**
+  - React 기반 프론트엔드 전체 구현
+  - 인터랙션(애니메이션) 적용
+  - 운영 기간 중 UI 개선 및 이슈 대응
+
+
+## 구현 내용
+
+- React 기반 졸업전시 웹 플랫폼 **프론트엔드 전체 단독 개발**
+- **Lottie**를 활용한 애니메이션 인터랙션 구현
+- 전시 기간 중 관람객 사용 환경을 기준으로
+  - UI 수정
+  - 인터랙션 조정
+  - 사용성 관련 이슈 대응
+
+
+## 기술 스택
+
+- **Language**: JavaScript  
+- **Frontend**: React, Lottie
+
+
+## 프로젝트를 통해 얻은 점
+
+- 전시/이벤트성 서비스에서 **운영 기간**과 **실사용 환경**을 고려한 UI 개선의 중요성을 경험
+- 단독 개발 환경에서 화면 구조, 인터랙션, 유지보수 관점을 함께 고려하는 경험
+
+
+## 참고
+
+본 서비스는 졸업전시 운영 기간에 맞춰 제작된 프로젝트이며, 전시 종료 이후 일부 콘텐츠는 변경될 수 있습니다.
