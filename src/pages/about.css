@@ -364,7 +364,7 @@ body {
   }
 }
 
-/* ✅ Lottie(SVG) 생성 결과가 고정 크기로 남는 문제 방지 */
+/* Lottie(SVG) 생성 결과가 고정 크기로 남는 문제 방지 */
 .particle-canvas {
   position: absolute;
   inset: 0;
